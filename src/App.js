@@ -1,36 +1,17 @@
-import 'bootstrap/dist/css/bootstrap.min.css';
-import Navbar from 'react-bootstrap/Navbar'
-import Container from 'react-bootstrap/Container'
-import Nav from 'react-bootstrap/Nav'
-import './App.css';
+import React from "react";
+import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
+import Navbar from "./Components/Navbar";
+import Me from "./Components/Me";
 
-function App() {
-  return (
-    
-    <div className="App">
-            <>
-  <Navbar bg="dark" variant="dark">
-    <Container>
-    <Navbar.Brand href="#home">Michael Bryan Stark</Navbar.Brand>
-    <Nav className="me-auto">
-      <Nav.Link href="#home">About Me</Nav.Link>
-      <Nav.Link href="#features">Past Projects</Nav.Link>
-      <Nav.Link href="#pricing">Contact</Nav.Link>
-    </Nav>
-    </Container>
-  </Navbar>
-</>
-      
-      <header className="App-header">
 
-  
-        <h1 class="text-3xl font-bold underline">
-           Hello world!
-        </h1>
-
-      </header>
-    </div>
-  );
-}
+const App = () => (
+  <Router>
+    <Navbar>
+      <Routes>
+        <Route exact path='/me' element={<Me/>}></Route>
+      </Routes>
+    </Navbar>
+  </Router>
+)
 
 export default App;
