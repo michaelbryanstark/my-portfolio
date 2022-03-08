@@ -11,11 +11,11 @@ function App() {
             <>
   <Navbar bg="dark" variant="dark">
     <Container>
-    <Navbar.Brand href="#home">Navbar</Navbar.Brand>
+    <Navbar.Brand href="#home">Michael Stark</Navbar.Brand>
     <Nav className="me-auto">
-      <Nav.Link href="#home">Home</Nav.Link>
-      <Nav.Link href="#features">Features</Nav.Link>
-      <Nav.Link href="#pricing">Pricing</Nav.Link>
+      <Nav.Link href="#home">About Me</Nav.Link>
+      <Nav.Link href="#features">Past Projects</Nav.Link>
+      <Nav.Link href="#pricing">Contact</Nav.Link>
     </Nav>
     </Container>
   </Navbar>
