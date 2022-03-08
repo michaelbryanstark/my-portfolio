@@ -11,7 +11,7 @@ function App() {
             <>
   <Navbar bg="dark" variant="dark">
     <Container>
-    <Navbar.Brand href="#home">Michael Stark</Navbar.Brand>
+    <Navbar.Brand href="#home">Michael Bryan Stark</Navbar.Brand>
     <Nav className="me-auto">
       <Nav.Link href="#home">About Me</Nav.Link>
       <Nav.Link href="#features">Past Projects</Nav.Link>
