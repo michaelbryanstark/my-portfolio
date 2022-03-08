@@ -2,10 +2,10 @@ import React from "react";
 
 function Me() {
     return(
-        <div>
-            <p>
+        <div class="App-header">
+            <h1 className="welcome-text">
                 Me
-            </p>
+            </h1>
         </div>
     )
 }

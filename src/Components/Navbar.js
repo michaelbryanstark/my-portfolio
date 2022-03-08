@@ -1,38 +1,37 @@
-import React from "react";
-import 'bootstrap/dist/css/bootstrap.min.css';
-import Navbar from 'react-bootstrap/Navbar'
-import Container from 'react-bootstrap/Container'
-import Nav from 'react-bootstrap/Nav'
-// import { MDBSmoothScroll } from "mdbreact";
-import '../App.css';
+import React from 'react';
+import { Link, NavLink } from 'react-router-dom';
 
-function Navibar() {
-  return (
-    
-    <div className="App">
-            <>
-  <Navbar bg="dark" variant="dark">
-    <Container>
-      <Navbar.Brand href="#home">Michael Bryan Stark</Navbar.Brand>
-    <Nav className="me-auto">
-      <Nav.Link href="#me">About Me</Nav.Link>
-      <Nav.Link href="#projects">Past Projects</Nav.Link>
-      <Nav.Link href="#contact">Contact</Nav.Link>
-    </Nav>
-    </Container>
-  </Navbar>
-</>
-      
-      <header className="App-header">
+const navbar = () => (
+    <nav className="navbar navbar-expand-lg navbar-dark bg-dark">
+        <Link className="navbar-brand" to='/'>Michael Bryan Stark</Link>
+        <button 
+            className="navbar-toggler"
+            type="button"
+            data-toggle="collapse"
+            data-target="#navbarNav"
+            aria-controls="navbarNav"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+        >
+            <span className="navbar-toggler-icon"></span>
+        </button>
+        <div className="collapse navbar-collapse" id="navbarNav">
+            <ul className="navbar-nav">
+                <li className="nav-item active">
+                    <NavLink className="nav-link" exact to='/'>Home <span className="sr-only">(current)</span></NavLink>
+                </li>
+                <li className="nav-item">
+                    <NavLink className="nav-link" exact to='/me'>About</NavLink>
+                </li>
+                <li className="nav-item">
+                    <NavLink className="nav-link" exact to='/projects'>Projects</NavLink>
+                </li>
+                <li className="nav-item">
+                    <NavLink className="nav-link" exact to='/contact'>Contact</NavLink>
+                </li>
+            </ul>
+        </div>
+    </nav>
+);
 
-  
-        <h1 class="text-3xl font-bold underline">
-           Hello world!
-        </h1>
-
-      </header>
-    </div>
-  );
-}
-
-export default Navibar;
+export default navbar;
