@@ -5,9 +5,15 @@ import "../App.css";
 
 const Welcome = (props) => {
     return (
-        <div class="App-header">
-            <h1 className="welcome-text">Michael Bryan Stark</h1>
-        </div> 
+        <div>
+            <div class="App-header">
+            <h1 className="welcome-text">
+                Michael Bryan Stark
+            </h1>
+        </div>
+        <div className="card-header">
+            </div>
+        </div>
     );
 };
 export default Welcome;
