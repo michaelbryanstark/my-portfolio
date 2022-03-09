@@ -57,11 +57,20 @@
   font-size: calc(10px + 2vmin);
   color: white;
 }
-/* 
-img {
-  max-width: 300px;
-  max-height: 500px;
-} */
+
+.intro {
+  background-color: #282c34;
+  padding-top: 50px;
+  padding-left: 200px;
+  padding-right: 200px;
+  text-align: center;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
 
 .share {
   max-width: 290px;
