@@ -57,7 +57,16 @@
   font-size: calc(10px + 2vmin);
   color: white;
 }
-
+/* 
 img {
   max-width: 300px;
+  max-height: 500px;
+} */
+
+.share {
+  max-width: 290px;
+}
+
+.dan {
+  max-width: 250px;
 }
