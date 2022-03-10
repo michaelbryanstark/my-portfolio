@@ -1,5 +1,6 @@
 import React from 'react';
 import { Link, NavLink } from 'react-router-dom';
+import { SocialIcon } from 'react-social-icons';
 
 const navbar = () => (
     <nav className="navbar navbar-expand-lg navbar-dark bg-dark">
@@ -30,6 +31,8 @@ const navbar = () => (
                     <NavLink className="nav-link" exact to='/contact'>Contact</NavLink>
                 </li>
             </ul>
+            <SocialIcon className="nav-item ml-auto" url="https://www.linkedin.com/in/michaelbryanstark/" />
+            <SocialIcon className="nav-item " url="https://github.com/michaelbryanstark" />
         </div>
     </nav>
 );

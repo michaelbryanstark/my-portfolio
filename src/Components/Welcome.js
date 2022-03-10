@@ -5,8 +5,6 @@ import 'collapsible-react-component/dist/index.css'
 import ParticlesBg from 'particles-bg'
 
 
-
-
 const Welcome = (props) => {
     const [open, setOpen] = React.useState(false)
     return (
