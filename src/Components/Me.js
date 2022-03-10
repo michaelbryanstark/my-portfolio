@@ -17,7 +17,7 @@ const Me = (props) => {
         <>
         <button
           type='button'
-          className="btn btn-outline-primary"
+          className="btn btn-outline-secondary"
           onClick={() => {
             setOpen(!open)
           }}
@@ -25,59 +25,74 @@ const Me = (props) => {
           {open ? 'Close' : 'Technical Skills'}
         </button>
         <Collapsible open={open}>
-          <ul>
-              <li>
-                AJAX
-              </li>
-              <li>
-                  Django
-              </li>
-              <li>
-                  EJS
-              </li>
-              <li>
-                  Express.js
-              </li>
-              <li>
-                  HTML & CSS 
-              </li>
-              <li>
-                  JavaScript
-              </li>
-              <li>
-                  jQuery
-              </li>
-              <li>
-                  JSON
-              </li>
-              <li>
-                  JWT
-              </li>
-              <li>
-                  MongoDB
-              </li>
-              <li>
-                  Mongoose
-              </li>
-              <li>
-                  MVP Frameworks
-              </li>
-              <li>
-                  Node.js 
-              </li>
-              <li>
-                  Python
-              </li>
-              <li>
-                  React 
-              </li>
-              <li>
-                  RESTful APIs
-              </li>
-              <li>
-                  PostgreSQL
-              </li>
-          </ul>
+            <table>
+                <tr>
+                    <td>
+                        AJAX
+                    </td>
+                    <td>
+                        Django
+                    </td>
+                     <td>
+                        EJS
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        Express.js
+                    </td>
+                    <td>
+                        HTML & CSS
+                    </td>
+                    <td>
+                        JavaScript
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        jQuery 
+                    </td>
+                    <td>
+                        JSON
+                    </td>
+                    <td>
+                        JWT
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        MongoDB
+                    </td>
+                    <td>
+                        Mongoose
+                    </td>
+                    <td>
+                        MVP Frameworks
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        Node.js 
+                    </td>
+                    <td>
+                        Python
+                    </td>
+                    <td>
+                        PostgreSQL
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        React 
+                    </td>
+                    <td>
+                        RESTful APIs 
+                    </td>
+                    <td>
+                        TypeScript
+                    </td>
+                </tr>
+            </table>
         </Collapsible>
         
       </>
