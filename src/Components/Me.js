@@ -1,10 +1,12 @@
 import React from "react";
 import { Collapsible } from 'collapsible-react-component'
 import 'collapsible-react-component/dist/index.css'
+import ParticlesBg from 'particles-bg'
 
 const Me = (props) => {
     const [open, setOpen] = React.useState(false)
     return (
+        <>
         <div>
             <div className="App-header">
             <h1 className="welcome-text">
@@ -82,6 +84,8 @@ const Me = (props) => {
             </div>
          
         </div>
+        <ParticlesBg type="cobweb" bg={true} />
+        </>
     );
 };
 

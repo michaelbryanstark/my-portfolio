@@ -1,8 +1,10 @@
 import React from "react";
+import ParticlesBg from 'particles-bg'
 
 
 function Projects() {
     return(
+        <>
         <div>
                 <div className="App-header">
                     <h1 className="welcome-text">
@@ -21,7 +23,7 @@ function Projects() {
                                 <p className="card-text">Built using the Django framework and Python. BDS Quality Services is a company that provides quality assurance training and compliance.</p>
                             </div>
                             <div className="card-footer">
-                                <a href="https://bdsqs.net" target='_blank' rel="noreferrer" className="text-muted">Visit BDS Quality Services!</a>
+                                <a href="https://bdsqs.net" target='_blank' rel="noopener noreferrer" className="text-muted">Visit BDS Quality Services!</a>
                             </div>
                         </div>
                     </div>
@@ -35,7 +37,7 @@ function Projects() {
                                 <p className="card-text">Full stack React app built for developers to share code. Features full CRUD built using JavaScript, Node.js, CSS, MongoDB/Mongoose, JWT-based Authentication.</p>
                             </div>
                             <div className="card-footer">
-                            <a href="https://codeshare-app3.herokuapp.com/login" target='_blank' rel="noreferrer" className="text-muted">Visit CodeShare!</a>
+                            <a href="https://codeshare-app3.herokuapp.com/login" target='_blank' rel="noopener noreferrer" className="text-muted">Visit CodeShare!</a>
                             </div>
                         </div>
                     </div>
@@ -49,14 +51,15 @@ function Projects() {
                                 <p className="card-text">Personal Blog with full CRUD built using the Django Framework and Python. Users can sign up leave comments on blog posts.</p>
                             </div>
                             <div className="card-footer">
-                            <a href="https://penalty-box.herokuapp.com/" target='_blank' rel="noreferrer" className="text-muted">Visit The Penalty Box!</a>
+                            <a href="https://penalty-box.herokuapp.com/" target='_blank' rel="noopener noreferrer" className="text-muted">Visit The Penalty Box!</a>
                             </div>
                         </div>
                     </div>
                 </div>
             </div>
         </div>
-        
+        <ParticlesBg type="cobweb" bg={true} />
+        </>
         
     )
 }
