@@ -1,10 +1,13 @@
 import React from "react";
-import { Collapsible } from 'collapsible-react-component'
+// import { Collapsible } from 'collapsible-react-component'
 import 'collapsible-react-component/dist/index.css'
 import ParticlesBg from 'particles-bg'
+import Popup from 'reactjs-popup';
+import 'reactjs-popup/dist/index.css';
+import Resume from "../images/Resume.jpg"
 
 const Me = (props) => {
-    const [open, setOpen] = React.useState(false)
+    // const [open, setOpen] = React.useState(false)
     return (
         <>
         <div>
@@ -13,8 +16,9 @@ const Me = (props) => {
                 My Experience
             </h1>
         </div>
-        <div className="intro">
-        <>
+        <div className="tech">
+       
+        {/* <>
         <button
           type='button'
           className="btn btn-outline-secondary"
@@ -94,8 +98,11 @@ const Me = (props) => {
                 </tr>
             </table>
         </Collapsible>
-        
-      </>
+      </> */}
+        <Popup trigger={<button type='button'
+          className="btn btn-outline-secondary"> Resume</button>} position="left center">
+            <div><img src={Resume} alt="Resume"/></div>
+        </Popup>
             </div>
          
         </div>

@@ -3,6 +3,7 @@ import { Collapsible } from 'collapsible-react-component'
 import 'collapsible-react-component/dist/index.css'
 import ParticlesBg from 'particles-bg'
 
+
 const Contact = (props) => {
     const [open, setOpen] = React.useState(false)
     return (
@@ -12,6 +13,7 @@ const Contact = (props) => {
             <h1 className="welcome-text">
                 Contact
             </h1>
+          
         </div>
         <div className="intro">
         <>
