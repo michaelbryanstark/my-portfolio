@@ -1,5 +1,8 @@
 import React from "react";
 import ParticlesBg from 'particles-bg'
+import codeshare from "../images/codeshare.jpg"
+import bdsqs from "../images/bdsqs.jpg"
+import pirate from "../images/pirate.png"
 
 
 function Projects() {
@@ -16,7 +19,8 @@ function Projects() {
                     <div className="col">
                         <div className="card text-center h-100">
                         <div className="image">
-                            <img src="https://live.staticflickr.com/65535/51900488487_1b68a201c4_w.jpg" alt="new" href="https://bdsqs.net" target='_blank' rel="noreferrer"/>
+                            
+                            <img src={bdsqs} alt="bdsqs"/>
                         </div>
                             <div className="card-body">
                                 <h3 className="card-title">BDS Quality Services</h3>
@@ -30,7 +34,8 @@ function Projects() {
                     <div className="col">
                         <div className="card text-center h-100">
                             <div className="image">
-                                <img className="share" src="https://media.istockphoto.com/photos/programmer-working-with-program-code-picture-id1075599562?k=20&m=1075599562&s=612x612&w=0&h=cDFY2kKyhFzSNNlDQsaxoekIW0v7iyaMBkxp11Fz33U=" alt="new" href="www.google.com"/>
+                               
+                                <img className="share" src={codeshare} alt="codeshare"/>
                             </div>
                             <div className="card-body">
                                 <h3 className="card-title">CodeShare</h3>
@@ -44,7 +49,8 @@ function Projects() {
                     <div className="col">
                         <div className="card text-center h-100">
                             <div className="image">
-                                <img className="dan" src="http://i.imgur.com/ALIGMnI.png" alt="new"/>
+                                <img className="dan" src={pirate} alt="new"/>
+                                
                             </div>
                             <div className="card-body">
                                 <h3 className="card-title">The Penalty Box</h3>

@@ -137,6 +137,6 @@ th, td {
   padding: 20px;
 }
 
-img {
-  size: 75%;
+.codeShare {
+  max-width: 200;
 }
