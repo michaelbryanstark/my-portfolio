@@ -70,7 +70,7 @@ const Contact = (props) => {
         <textarea class="form-control" id="exampleFormControlTextarea1" rows="3" placeholder="Your message" value={message} onChange={e => setMessage(e.target.value)}></textarea>
         <button type='button'
           className="btn btn-outline-secondary" onClick={submit}>Send Message</button>
-        <span className={emailSent ? 'visible' : null}>Thank you for your message, we will be in touch in no time!</span>
+        <span className={emailSent ? 'visible' : null}></span>
         </div>
             
         </Collapsible>
