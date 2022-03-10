@@ -17,11 +17,11 @@ const navbar = () => (
         </button>
         <div className="collapse navbar-collapse" id="navbarNav">
             <ul className="navbar-nav">
-                <li className="nav-item active">
+                {/* <li className="nav-item active">
                     <NavLink className="nav-link" exact to='/'>Home <span className="sr-only">(current)</span></NavLink>
-                </li>
+                </li> */}
                 <li className="nav-item">
-                    <NavLink className="nav-link" exact to='/me'>About</NavLink>
+                    <NavLink className="nav-link" exact to='/me'>Experience</NavLink>
                 </li>
                 <li className="nav-item">
                     <NavLink className="nav-link" exact to='/projects'>Projects</NavLink>

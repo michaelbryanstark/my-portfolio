@@ -79,3 +79,16 @@
 .dan {
   max-width: 250px;
 }
+
+.test {
+  background-color: aqua;
+}
+
+li {
+  text-align: left;
+}
+
+.btn-outline-primary {
+  display: flex;
+  justify-content: left;
+}
