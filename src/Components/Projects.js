@@ -26,8 +26,8 @@ function Projects() {
                                 <h3 className="card-title">BDS Quality Services</h3>
                                 <p className="card-text">Built using the Django framework and Python. BDS Quality Services is a company that provides quality assurance training and compliance.</p>
                             </div>
-                            <div className="card-footer">
-                                <a href="https://bdsqs.net" target='_blank' rel="noopener noreferrer" className="text-muted">Visit BDS Quality Services!</a>
+                            <div>
+                                <button type='button' className="btn btn-outline-secondary"onClick={()=> window.open("https://bdsqs.net", "_blank")}>Visit BDS Quality Services!</button>
                             </div>
                         </div>
                     </div>
@@ -41,8 +41,8 @@ function Projects() {
                                 <h3 className="card-title">CodeShare</h3>
                                 <p className="card-text">Full stack React app built for developers to share code. Features full CRUD built using JavaScript, Node.js, CSS, MongoDB/Mongoose, JWT-based Authentication.</p>
                             </div>
-                            <div className="card-footer">
-                            <a href="https://codeshare-app3.herokuapp.com/login" target='_blank' rel="noopener noreferrer" className="text-muted">Visit CodeShare!</a>
+                            <div>
+                            <button type='button' className="btn btn-outline-secondary"onClick={()=> window.open("https://codeshare-app3.herokuapp.com/login", "_blank")}>Visit CodeShare!</button>
                             </div>
                         </div>
                     </div>
@@ -56,8 +56,8 @@ function Projects() {
                                 <h3 className="card-title">The Penalty Box</h3>
                                 <p className="card-text">Personal Blog with full CRUD built using the Django Framework and Python. Users can sign up leave comments on blog posts.</p>
                             </div>
-                            <div className="card-footer">
-                            <a href="https://penalty-box.herokuapp.com/" target='_blank' rel="noopener noreferrer" className="text-muted">Visit The Penalty Box!</a>
+                            <div>
+                            <button type='button' className="btn btn-outline-secondary"onClick={()=> window.open("https://penalty-box.herokuapp.com/", "_blank")}>Visit The Penalty Box!</button>
                             </div>
                         </div>
                     </div>
