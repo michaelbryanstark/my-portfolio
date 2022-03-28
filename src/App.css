@@ -46,10 +46,10 @@
 .card {
   background-color: rgba(0, 0, 0, 0.2);
   align-items: center;
+  padding-bottom: 10px;
 }
 
 .card-header {
- 
   min-height: 100vh;
   display: flex;
   flex-direction: column;
@@ -57,6 +57,10 @@
   justify-content: center;
   font-size: calc(10px + 2vmin);
   color: white;
+}
+
+.col {
+  margin-bottom: 10px;
 }
 
 .intro {
