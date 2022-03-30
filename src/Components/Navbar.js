@@ -31,8 +31,8 @@ const navbar = () => (
                     <NavLink className="nav-link" exact to='/contact'>Contact</NavLink>
                 </li>
             </ul>
-            <SocialIcon className="nav-item ml-auto" url="https://www.linkedin.com/in/michaelbryanstark/" />
-            <SocialIcon className="nav-item " url="https://github.com/michaelbryanstark" />
+            <SocialIcon className="nav-item ml-auto" url="https://www.linkedin.com/in/michaelbryanstark/" target="_blank" />
+            <SocialIcon className="nav-item " url="https://github.com/michaelbryanstark" target="_blank"/>
         </div>
     </nav>
 );
