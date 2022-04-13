@@ -25,7 +25,8 @@ const Contact = (props) => {
 
         emailjs.send(serviceId, templateId, templateParams, userId)
             .then(response => console.log(response))
-            .then(error => console.log(error));
+            .then(error => console.log(error))
+            alert("Messaage Sent");
   
           setName('');
           setEmail('');
