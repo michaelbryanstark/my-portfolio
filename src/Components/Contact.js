@@ -62,6 +62,11 @@ const Contact = (props) => {
           {open ? 'Close' : 'Contact'}
         </button>
         <Collapsible open={open}>
+        <div class="container">
+                    <div class="row">
+                        <div class="card text-white bg-dark mb-3">
+                            <div class="card-body">
+                                 <p class="card-text">
         <div class="row mb-3">
         <label for="exampleFormControlInput1" class="form-label">Your Name</label>
         <input type="text" class="form-control" id="exampleFormControlInput1" placeholder="Your Name" value={name} onChange={e => setName(e.target.value)} />
@@ -73,7 +78,11 @@ const Contact = (props) => {
           className="btn btn-outline-secondary" onClick={submit}>Send Message</button>
         <span className={emailSent ? 'visible' : null}></span>
         </div>
-            
+            </p>
+            </div>
+            </div>
+            </div>
+            </div>
         </Collapsible>
       </>
             </div>

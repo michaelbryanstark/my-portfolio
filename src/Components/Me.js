@@ -29,74 +29,84 @@ const Me = (props) => {
           {open ? 'Close' : 'Technical Skills'}
         </button>
         <Collapsible open={open}>
-            <table>
-                <tr>
-                    <td>
-                        AJAX
-                    </td>
-                    <td>
-                        Django
-                    </td>
-                     <td>
-                        EJS
-                    </td>
-                </tr>
-                <tr>
-                    <td>
-                        Express.js
-                    </td>
-                    <td>
-                        HTML & CSS
-                    </td>
-                    <td>
-                        JavaScript
-                    </td>
-                </tr>
-                <tr>
-                    <td>
-                        jQuery 
-                    </td>
-                    <td>
-                        JSON
-                    </td>
-                    <td>
-                        JWT
-                    </td>
-                </tr>
-                <tr>
-                    <td>
-                        MongoDB
-                    </td>
-                    <td>
-                        Mongoose
-                    </td>
-                    <td>
-                        MVP Frameworks
-                    </td>
-                </tr>
-                <tr>
-                    <td>
-                        Node.js 
-                    </td>
-                    <td>
-                        Python
-                    </td>
-                    <td>
-                        PostgreSQL
-                    </td>
-                </tr>
-                <tr>
-                    <td>
-                        React 
-                    </td>
-                    <td>
-                        RESTful APIs 
-                    </td>
-                    <td>
-                        TypeScript
-                    </td>
-                </tr>
-            </table>
+        <div class="container">
+                    <div class="row">
+                        <div class="card text-white bg-dark mb-3">
+                            <div class="card-body">
+                                 <p class="card-text">
+                                    <table>
+                                        <tr>
+                                            <td>
+                                                AJAX
+                                            </td>
+                                            <td>
+                                                Django
+                                            </td>
+                                            <td>
+                                                EJS
+                                            </td>
+                                        </tr>
+                                        <tr>
+                                            <td>
+                                                Express.js
+                                            </td>
+                                            <td>
+                                                HTML & CSS
+                                            </td>
+                                            <td>
+                                                JavaScript
+                                            </td>
+                                        </tr>
+                                        <tr>
+                                            <td>
+                                                jQuery 
+                                            </td>
+                                            <td>
+                                                JSON
+                                            </td>
+                                            <td>
+                                                JWT
+                                            </td>
+                                        </tr>
+                                        <tr>
+                                            <td>
+                                                MongoDB
+                                            </td>
+                                            <td>
+                                                Mongoose
+                                            </td>
+                                            <td>
+                                                 MVP Frameworks
+                                            </td>
+                                        </tr>
+                                        <tr>
+                                            <td>
+                                                Node.js 
+                                            </td>
+                                            <td>
+                                                Python
+                                            </td>
+                                            <td>
+                                                PostgreSQL
+                                            </td>
+                                        </tr>
+                                        <tr>
+                                            <td>
+                                                React 
+                                            </td>
+                                            <td>
+                                                RESTful APIs 
+                                            </td>
+                                            <td>
+                                                TypeScript
+                                            </td>
+                                        </tr>
+                                    </table>
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+            </div>
         </Collapsible>
       </>
         {/* <Popup trigger={<button type='button'
