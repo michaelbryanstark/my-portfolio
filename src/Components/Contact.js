@@ -44,11 +44,11 @@ const Contact = (props) => {
     return (
         <>
         <div>
-            <div className="App-header">
-            <h1 className="welcome-text">
-                Contact
-            </h1>
-            <img className="dan" src={selfie} alt="selfie"/>
+        <div className="App-header">
+                    <h1 className="welcome-text">
+                      Contact
+                     </h1>
+                      
         </div>
         <div className="intro">
         <>
@@ -62,6 +62,7 @@ const Contact = (props) => {
           {open ? 'Close' : 'Contact'}
         </button>
         <Collapsible open={open}>
+        <img className="dan" src={selfie} alt="selfie"/>
         <div class="container">
                     <div class="row">
                         <div class="card text-white bg-dark mb-3">
