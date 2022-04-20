@@ -2,6 +2,7 @@ import React from "react";
 import { Collapsible } from 'collapsible-react-component'
 import 'collapsible-react-component/dist/index.css'
 import ParticlesBg from 'particles-bg'
+import Resume from "../images/Resume.jpg"
 // import Popup from 'reactjs-popup';
 import 'reactjs-popup/dist/index.css';
 // import Resume from "../images/Resume.jpg"
@@ -26,7 +27,7 @@ const Me = (props) => {
             setOpen(!open)
           }}
         >
-          {open ? 'Close' : 'Technical Skills'}
+          {open ? 'Close' : 'Resume'}
         </button>
         <Collapsible open={open}>
         <div class="container">
@@ -34,79 +35,12 @@ const Me = (props) => {
                         <div class="card text-white bg-dark mb-3">
                             <div class="card-body">
                                  <p class="card-text">
-                                    <table>
-                                        <tr>
-                                            <td>
-                                                AJAX
-                                            </td>
-                                            <td>
-                                                Django
-                                            </td>
-                                            <td>
-                                                EJS
-                                            </td>
-                                        </tr>
-                                        <tr>
-                                            <td>
-                                                Express.js
-                                            </td>
-                                            <td>
-                                                HTML & CSS
-                                            </td>
-                                            <td>
-                                                JavaScript
-                                            </td>
-                                        </tr>
-                                        <tr>
-                                            <td>
-                                                jQuery 
-                                            </td>
-                                            <td>
-                                                JSON
-                                            </td>
-                                            <td>
-                                                JWT
-                                            </td>
-                                        </tr>
-                                        <tr>
-                                            <td>
-                                                MongoDB
-                                            </td>
-                                            <td>
-                                                Mongoose
-                                            </td>
-                                            <td>
-                                                 MVP Frameworks
-                                            </td>
-                                        </tr>
-                                        <tr>
-                                            <td>
-                                                Node.js 
-                                            </td>
-                                            <td>
-                                                Python
-                                            </td>
-                                            <td>
-                                                PostgreSQL
-                                            </td>
-                                        </tr>
-                                        <tr>
-                                            <td>
-                                                React 
-                                            </td>
-                                            <td>
-                                                RESTful APIs 
-                                            </td>
-                                            <td>
-                                                TypeScript
-                                            </td>
-                                        </tr>
-                                    </table>
-                                </p>
-                            </div>
-                        </div>
-                    </div>
-            </div>
+        <img src={Resume} alt="selfie"/>
+        </p>
+        </div>
+        </div>
+        </div>
+        </div>
         </Collapsible>
       </>
         {/* <Popup trigger={<button type='button'
