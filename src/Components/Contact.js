@@ -59,7 +59,7 @@ const Contact = (props) => {
             setOpen(!open)
           }}
         >
-          {open ? 'Close' : 'Contact'}
+          {open ? 'Close' : 'Get In Touch With Me!'}
         </button>
         <Collapsible open={open}>
         <img className="dan" src={selfie} alt="selfie"/>
@@ -76,7 +76,7 @@ const Contact = (props) => {
         <label for="exampleFormControlTextarea1" class="form-label">Your message</label>
         <textarea class="form-control" id="exampleFormControlTextarea1" rows="3" placeholder="Your message" value={message} onChange={e => setMessage(e.target.value)}></textarea>
         <button type='button'
-          className="btn btn-outline-secondary" onClick={submit}>Send Message</button>
+          className="btn btn-outline-info" onClick={submit}>Send Message</button>
         <span className={emailSent ? 'visible' : null}></span>
         </div>
             </p>
