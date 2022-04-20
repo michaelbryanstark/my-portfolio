@@ -35,7 +35,7 @@ const Me = (props) => {
                         <div class="card text-white bg-dark mb-3">
                             <div class="card-body">
                                  <p class="card-text">
-        <img src={Resume} alt="selfie"/>
+        <img className="resume" src={Resume} alt="selfie"/>
         </p>
         </div>
         </div>
