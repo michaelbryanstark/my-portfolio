@@ -20,7 +20,7 @@ function Projects() {
                         <div className="card text-center h-100">
                         <div className="image">
                             
-                            <img src={bdsqs} alt="bdsqs"/>
+                            <img className="bdsqs" src={bdsqs} alt="bdsqs"/>
                         </div>
                             <div className="card-body">
                                 <h3 className="card-title">BDS Quality Services</h3>

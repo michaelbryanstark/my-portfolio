@@ -98,11 +98,17 @@
 
 .share {
   max-width: 290px;
+  border-radius: 30px;
 }
 
 .dan {
   max-width: 250px;
-  border-radius: 50px;
+  border-radius: 30px;
+}
+
+.bdsqs {
+  
+  border-radius: 30px;
 }
 
 button {
