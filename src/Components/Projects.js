@@ -24,7 +24,7 @@ function Projects() {
                         </div>
                             <div className="card-body">
                                 <h3 className="card-title">BDS Quality Services</h3>
-                                <p className="card-text">Built using the Django framework and Python. BDS Quality Services is a company that provides quality assurance training and compliance.</p>
+                                <p className="card-text">Built using the React.js, JavaScript, and HTML/CSS, BDS Quality Services is a company that provides quality assurance training and compliance.</p>
                             </div>
                             <div>
                                 <button type='button' className="btn btn-outline-secondary"onClick={()=> window.open("https://bdsqs.net", "_blank")}>Visit BDS Quality Services!</button>
