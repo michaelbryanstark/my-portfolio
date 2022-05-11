@@ -3,7 +3,7 @@ import { Link, NavLink } from 'react-router-dom';
 import { SocialIcon } from 'react-social-icons';
 
 const navbar = () => (
-    <nav className="navbar navbar-expand-lg navbar-dark bg-dark">
+    <nav className="navbar navbar-expand-lg navbar-light bg-light">
         <Link className="navbar-brand" to='/'>Michael Bryan Stark</Link>
         <button 
             className="navbar-toggler"
