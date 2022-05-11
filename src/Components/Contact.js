@@ -65,7 +65,7 @@ const Contact = (props) => {
         <img className="dan" src={selfie} alt="selfie"/>
         <div class="container">
                     <div class="row">
-                        <div class="card text-white bg-dark mb-3">
+                        <div class="card text-black mb-3">
                             <div class="card-body">
                                  <p class="card-text">
         <div class="row mb-3">

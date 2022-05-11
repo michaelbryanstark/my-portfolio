@@ -7,6 +7,33 @@ import ParticlesBg from 'particles-bg'
 
 const Welcome = (props) => {
     const [open, setOpen] = React.useState(false)
+
+    // let config = {
+    //     num: [1, 1],
+    //     rps: 0.9,
+    //     radius: [5, 5],
+    //     life: [1.5, 0],
+    //     v: [2, 3],
+    //     tha: [-40, 40],
+    //     // body: "./img/icon.png", // Whether to render pictures
+    //     rotate: [20],
+    //     alpha: [0.6, 0],
+    //     scale: [1, 0.1],
+    //     position: "all", // all or center or {x:1,y:1,width:100,height:100}
+    //     color: ["#353a3f"],
+    //     cross: "dead", // cross or bround
+    //     random: 20,  // or null,
+    //     g: 5,    // gravity
+    //     // f: [2, -1], // force
+    //     onParticleUpdate: (ctx, particle) => {
+    //         ctx.beginPath();
+    //         ctx.rect(particle.p.x, particle.p.y, particle.radius * 2, particle.radius * 2);
+    //         ctx.fillStyle = particle.color;
+    //         ctx.fill();
+    //         ctx.closePath();
+    //     }
+    //   };
+
     return (
         <>
         <div>
@@ -32,7 +59,7 @@ const Welcome = (props) => {
         <Collapsible open={open}>
            <div class="container">
                     <div class="row">
-                        <div class="card text-white bg-dark mb-3">
+                        <div class="card text-black mb-3">
                             <div class="card-body">
                                  <p class="card-text">
                                     I am a Software Engineer with a background in Physics and Operations Management. 

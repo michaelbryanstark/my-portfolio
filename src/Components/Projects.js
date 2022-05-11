@@ -1,11 +1,14 @@
 import React from "react";
 import ParticlesBg from 'particles-bg'
+import { Collapsible } from 'collapsible-react-component'
+import 'collapsible-react-component/dist/index.css'
 import codeshare from "../images/codeshare.jpg"
 import bdsqs from "../images/bdsqs.jpg"
 import pirate from "../images/pirate.png"
 
 
 function Projects() {
+    const [open, setOpen] = React.useState(false)
     return(
         <>
         <div>
@@ -14,6 +17,18 @@ function Projects() {
                          Projects
                     </h1>
                 </div>
+        <div className="intro">
+        <>
+        <button
+          type='button'
+          className="btn btn-outline-secondary"
+          onClick={() => {
+            setOpen(!open)
+          }}
+        >
+          {open ? 'Close' : 'Apps and Websites'}
+        </button>
+        <Collapsible open={open}>
                 <div className="card-header">
                     <div className="row row-cols-1 row-cols-md-3 g-4">
                     <div className="col">
@@ -63,6 +78,9 @@ function Projects() {
                     </div>
                 </div>
             </div>
+            </Collapsible>
+        </>
+        </div>
         </div>
         <ParticlesBg type="cobweb" bg={true} />
         </>

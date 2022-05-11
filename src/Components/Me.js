@@ -32,7 +32,7 @@ const Me = (props) => {
         <Collapsible open={open}>
         <div class="container">
                     <div class="row">
-                        <div class="card text-white bg-dark mb-3">
+                        <div class="card text-white mb-3">
                             <div class="card-body">
                                  <p class="card-text">
         <img className="resume" src={Resume} alt="selfie"/>
