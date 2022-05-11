@@ -59,7 +59,7 @@ const Contact = (props) => {
             setOpen(!open)
           }}
         >
-          {open ? 'Close' : 'Get In Touch With Me!'}
+          {open ? 'Close' : 'Get In Touch With Me'}
         </button>
         <Collapsible open={open}>
         <img className="dan" src={selfie} alt="selfie"/>

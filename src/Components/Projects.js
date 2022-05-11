@@ -42,7 +42,7 @@ function Projects() {
                                 <p className="card-text">Built using the React.js, JavaScript, and HTML/CSS, BDS Quality Services is a company that provides quality assurance training and compliance.</p>
                             </div>
                             <div>
-                                <button type='button' className="btn btn-outline-secondary"onClick={()=> window.open("https://bdsqs.net", "_blank")}>Visit BDS Quality Services!</button>
+                                <button type='button' className="btn btn-outline-info"onClick={()=> window.open("https://bdsqs.net", "_blank")}>Visit BDS Quality Services</button>
                             </div>
                         </div>
                     </div>
@@ -57,7 +57,7 @@ function Projects() {
                                 <p className="card-text">Full stack React app built for developers to share code. Features full CRUD built using JavaScript, Node.js, CSS, MongoDB/Mongoose, JWT-based Authentication.</p>
                             </div>
                             <div>
-                            <button type='button' className="btn btn-outline-secondary"onClick={()=> window.open("https://codeshare-app3.herokuapp.com/login", "_blank")}>Visit CodeShare!</button>
+                            <button type='button' className="btn btn-outline-info"onClick={()=> window.open("https://codeshare-app3.herokuapp.com/login", "_blank")}>Visit CodeShare</button>
                             </div>
                         </div>
                     </div>
@@ -72,7 +72,7 @@ function Projects() {
                                 <p className="card-text">Personal Blog with full CRUD built using the Django Framework and Python. Users can sign up leave comments on blog posts.</p>
                             </div>
                             <div>
-                            <button type='button' className="btn btn-outline-secondary"onClick={()=> window.open("https://penalty-box.herokuapp.com/", "_blank")}>Visit The Penalty Box!</button>
+                            <button type='button' className="btn btn-outline-info"onClick={()=> window.open("https://penalty-box.herokuapp.com/", "_blank")}>Visit The Penalty Box</button>
                             </div>
                         </div>
                     </div>
