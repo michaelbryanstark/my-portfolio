@@ -29,7 +29,7 @@ function Projects() {
           {open ? 'Close' : 'Apps and Websites'}
         </button>
         <Collapsible open={open}>
-                <div className="card-header">
+                
                     <div className="row row-cols-1 row-cols-md-3 g-4">
                     <div className="col">
                         <div className="card text-center h-100">
@@ -77,7 +77,6 @@ function Projects() {
                         </div>
                     </div>
                 </div>
-            </div>
             </Collapsible>
         </>
         </div>
