@@ -87,7 +87,7 @@ const Contact = (props) => {
             </div>
          
         </div>
-        <ParticlesBg type="cobweb" bg={true} />
+        <ParticlesBg color="#000000" num={50} type="cobweb" bg={true} />
         </>
     );
 };
