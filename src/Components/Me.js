@@ -2,7 +2,7 @@ import React from "react";
 import { Collapsible } from 'collapsible-react-component'
 import 'collapsible-react-component/dist/index.css'
 import ParticlesBg from 'particles-bg'
-import Resume from "../images/Resume.jpg"
+import MichaelStarkResume from "../images/MichaelStarkResume.jpg"
 // import Popup from 'reactjs-popup';
 import 'reactjs-popup/dist/index.css';
 // import Resume from "../images/Resume.jpg"
@@ -35,7 +35,7 @@ const Me = (props) => {
                         <div class="card text-white mb-3">
                             <div class="card-body">
                                  <p class="card-text">
-        <img className="resume" src={Resume} alt="selfie"/>
+        <img className="resume" src={MichaelStarkResume} alt="selfie"/>
         </p>
         </div>
         </div>
