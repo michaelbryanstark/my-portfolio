@@ -2,7 +2,6 @@ import React, { useState } from 'react'
 import { Collapsible } from 'collapsible-react-component'
 import 'collapsible-react-component/dist/index.css'
 import ParticlesBg from 'particles-bg'
-import selfie from "../images/selfie.jpg"
 import emailjs from 'emailjs-com'
 
 
@@ -62,7 +61,6 @@ const Contact = (props) => {
           {open ? 'Close' : 'Get In Touch With Me'}
         </button>
         <Collapsible open={open}>
-        <img className="dan" src={selfie} alt="selfie"/>
         <div class="container">
                     <div class="row">
                         <div class="card text-black mb-3">

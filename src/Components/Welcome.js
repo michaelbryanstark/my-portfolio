@@ -3,6 +3,7 @@ import "../App.css";
 import { Collapsible } from 'collapsible-react-component'
 import 'collapsible-react-component/dist/index.css'
 import ParticlesBg from 'particles-bg'
+import selfie from "../images/selfie.jpg"
 
 
 const Welcome = (props) => {
@@ -57,6 +58,7 @@ const Welcome = (props) => {
           {open ? 'Close' : 'Who am I?'}
         </button>
         <Collapsible open={open}>
+             <img className="dan" src={selfie} alt="selfie"/>
            <div class="container">
                     <div class="row">
                         <div class="card text-black mb-3">
@@ -79,7 +81,7 @@ const Welcome = (props) => {
             </div>
          
         </div>
-        <ParticlesBg type="cobweb" bg={true} />
+        <ParticlesBg color="#000000" num={50} type="cobweb" bg={true} />
         </>
     );
 };
