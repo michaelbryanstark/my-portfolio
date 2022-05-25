@@ -43,12 +43,11 @@ const Contact = (props) => {
     return (
         <>
         <div>
-        <div className="App-header">
-                    <h1 className="welcome-text">
-                      Contact
-                     </h1>
-                      
-        </div>
+          <div className="App-header">
+            <h1 className="welcome-text">
+              Contact
+            </h1>
+          </div>
         <div className="intro">
         <>
         <button
@@ -62,33 +61,34 @@ const Contact = (props) => {
         </button>
         <Collapsible open={open}>
         <div class="container">
-                    <div class="row">
-                        <div class="card text-black mb-3">
-                            <div class="card-body">
-                                 <p class="card-text">
-        <div class="row mb-3">
-        <label for="exampleFormControlInput1" class="form-label">Your Name</label>
-        <input type="text" class="form-control" id="exampleFormControlInput1" placeholder="Your Name" value={name} onChange={e => setName(e.target.value)} />
-        <label for="exampleFormControlInput1" class="form-label">Your Email</label>
-        <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="name@example.com" value={email} onChange={e => setEmail(e.target.value)} />
-        <label for="exampleFormControlTextarea1" class="form-label">Your message</label>
-        <textarea class="form-control" id="exampleFormControlTextarea1" rows="3" placeholder="Your message" value={message} onChange={e => setMessage(e.target.value)}></textarea>
-        <button type='button'
-          className="btn btn-outline-info" onClick={submit}>Send Message</button>
-        <span className={emailSent ? 'visible' : null}></span>
+          <div class="row">
+            <div class="card text-black mb-3">
+              <div class="card-body">
+                <p class="card-text">
+                  <div class="row mb-3">
+                    <label for="exampleFormControlInput1" class="form-label">Your Name</label>
+                      <input type="text" class="form-control" id="exampleFormControlInput1" 
+                        placeholder="Your Name" value={name} onChange={e => setName(e.target.value)} />
+                    <label for="exampleFormControlInput1" class="form-label">Your Email</label>
+                      <input type="email" class="form-control" id="exampleFormControlInput1" 
+                        placeholder="name@example.com" value={email} onChange={e => setEmail(e.target.value)} />
+                    <label for="exampleFormControlTextarea1" class="form-label">Your message</label>
+                      <textarea class="form-control" id="exampleFormControlTextarea1" rows="3" 
+                        placeholder="Your message" value={message} onChange={e => setMessage(e.target.value)}></textarea>
+                    <button type='button' className="btn btn-outline-info" onClick={submit}>Send Message</button>
+                      <span className={emailSent ? 'visible' : null}></span>
+                  </div>
+                </p>
+              </div>
+            </div>
+          </div>
         </div>
-            </p>
-            </div>
-            </div>
-            </div>
-            </div>
         </Collapsible>
       </>
-            </div>
-         
-        </div>
-        <ParticlesBg color="#000000" num={50} type="cobweb" bg={true} />
-        </>
+      </div>
+      </div>
+      <ParticlesBg color="#000000" num={50} type="cobweb" bg={true} />
+      </>
     );
 };
 

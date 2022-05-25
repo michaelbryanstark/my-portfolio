@@ -39,13 +39,13 @@ const Welcome = (props) => {
         <>
         <div>
             <div className="App-header">
-            <h1 className="welcome-text">
-                Michael Bryan Stark
-            </h1>
-            <h4>
-                Full Stack Software Engineer
-            </h4>
-        </div>
+                <h1 className="welcome-text">
+                    Michael Bryan Stark
+                </h1>
+                <h4>
+                    Full Stack Software Engineer
+                </h4>
+            </div>
         <div className="intro">
         <>
         <button
@@ -58,8 +58,8 @@ const Welcome = (props) => {
           {open ? 'Close' : 'Who am I?'}
         </button>
         <Collapsible open={open}>
-             <img className="dan" src={selfie} alt="selfie"/>
-           <div class="container">
+            <img className="dan" src={selfie} alt="selfie"/>
+                <div class="container">
                     <div class="row">
                         <div class="card text-black mb-3">
                             <div class="card-body">
@@ -75,11 +75,10 @@ const Welcome = (props) => {
                             </div>
                         </div>
                     </div>
-            </div>
+                </div>  
         </Collapsible>
       </>
-            </div>
-         
+        </div>
         </div>
         <ParticlesBg color="#000000" num={50} type="cobweb" bg={true} />
         </>
